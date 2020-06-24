@@ -28,7 +28,7 @@ Hanyang Univ. ERICA Open source S/W Assignment Customer membership management ap
     ```
     $ brew services start mysql
     ```
-  4. root 권한(sudo)으로 MySQL을 실행합니다.
+  4. root 권한(sudo)으로 MySQL을 실행합니다.  
     ```
     $ sudo mysql
     ```
