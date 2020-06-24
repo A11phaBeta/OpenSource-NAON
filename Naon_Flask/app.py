@@ -1,5 +1,5 @@
 from flask import Flask, render_template, request, jsonify
-import DBManage
+import DBConfig
 
 app = Flask(__name__)
 
@@ -9,7 +9,7 @@ def root():
 
 @app.route('/doCusLogin', methods=['POST'])
 def doLogin():
-    db_class = DBManage.DBManage()
+    db_class = DBConfig.DBManage()
     sql = """SELECT COUNT(*), mName FROM customer WHERE mPhone='""" + request.form['id'] + """' AND mPW='""" + request.form['pw'] + """' GROUP BY mName;""";
     row = db_class.executeAll(sql)
 
@@ -22,7 +22,7 @@ def doLogin():
 
 @app.route('/doCusSignUp', methods=['POST'])
 def doSignUp():
-    db_class = DBManage.DBManage()
+    db_class = DBConfig.DBManage()
     sql = """INSERT INTO customer(mPhone, mPW, mName) VALUES('""" + request.form['id'] + """', '""" + request.form['pw'] + """', '""" + request.form['name'] + """');"""
 
     db_class.execute(sql)
@@ -34,7 +34,7 @@ def doSignUp():
 
 @app.route('/doShopKLogin', methods=['POST'])
 def doShopKLogin():
-    db_class = DBManage.DBManage()
+    db_class = DBConfig.DBManage()
     sql = """SELECT COUNT(*), mShopTitle FROM shop WHERE mPhone='""" + request.form['id'] + """' AND mPW='""" + request.form['pw'] + """' GROUP BY mShopTitle;""";
 
     row = db_class.executeAll(sql)
