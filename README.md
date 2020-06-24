@@ -34,7 +34,7 @@ Hanyang Univ. ERICA Open source S/W Assignment Customer membership management ap
     ```
 
 #### 3. python과 MySQL을 연동하기 위한 pymysql 설치 과정 (installing pymysql)
-  1. Terminal을 이용하여 pymysql을 pip3로 설치합니다.
+  1. Terminal을 이용하여 pymysql을 pip3로 설치합니다.  
     ```
     $ pip3 install pymysql
     ```
