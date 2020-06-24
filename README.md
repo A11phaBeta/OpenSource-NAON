@@ -44,4 +44,8 @@ Hanyang Univ. ERICA Open source S/W Assignment Customer membership management ap
 #### 2. 점주 사용 Android Application UI / UX 디자인  
   | a. intro screen | b. login screen | c. add point | d. new customer sign up | e. after add point |  
   |----|----|----|----|----|
-  |![shop_intro_screen](./Design%20File/점주%20-%20Intro.jpg)|![shop_login_screen](./Design%20File/점주%20-%20Login.jpg)|![shop_add_point_screen](./Design%20File/점주%20-%20포인트%20적립.jpg)|![shop_new_customer_signup_screen](./Design%20File/점주%20-%20포인트%20적립%20-%20신규회원%20-%20Password%20Input.jpg)|![shop_after_add_point_screen](./Design%20File/점주%20-%20포인트%20적립%20후.jpg)
+  |![shop_intro_screen](./Design%20File/점주%20-%20Intro.jpg)|![shop_login_screen](./Design%20File/점주%20-%20Login.jpg)|![shop_add_point_screen](./Design%20File/점주%20-%20포인트%20적립.jpg)|![shop_new_customer_signup_screen](./Design%20File/점주%20-%20포인트%20적립%20-%20신규회원%20-%20Password%20Input.jpg)|![shop_after_add_point_screen](./Design%20File/점주%20-%20포인트%20적립%20후.jpg)  
+---
+
+### 3️⃣ Database ERD (Entity-Relation Diagram)
+---
