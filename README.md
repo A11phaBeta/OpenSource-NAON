@@ -20,7 +20,15 @@ Hanyang Univ. ERICA Open source S/W Assignment Customer membership management ap
     ```
     $ /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
     ```
-  2. Brew 패키지관리자를 이용하여 mysql을 설치합니다.  
+  2. Brew 패키지관리자를 이용하여 MySQL 설치합니다.  
     ```
     $ brew install mysql
+    ```
+  3. Brew 패키지관리자를 이용하여 MySQL의 서비스를 시작합니다.  
+    ```
+    $ brew services start mysql
+    ```
+  4. root 권한(sudo)으로 MySQL을 실행합니다.
+    ```
+    $ sudo mysql
     ```
