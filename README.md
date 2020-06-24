@@ -4,7 +4,7 @@ Hanyang Univ. ERICA Open source S/W Assignment Customer membership management ap
 ---
 
 ### 0️⃣ 개발기준 하드웨어 및 소프트웨어 사양   
-###     Development standard hardware and software specifications
+### 0️⃣ Development standard hardware and software specifications
 ---
 
 
