@@ -22,11 +22,11 @@ Hanyang Univ. ERICA Open source S/W Assignment Customer membership management ap
   2. pip3를 이용하여 Flask 라이브러리를 설치합니다.   
      Install Flask library using pip3.   
     ```
-    $ sudo pip3 install flask
+    $ sudo pip3 install flask   
     ```
 #### 2. MySQL 설치 과정 (installing MySQL)
   1. Terminal을 이용하여 MySQL을 설치하기 위해 Homebrew(MacOS 패키지관리자)를 설치합니다.      
-     Install Homebrew (MacOS Package Manager) to install MySQL using Terminal
+     Install Homebrew (MacOS Package Manager) to install MySQL using Terminal   
     ```
     $ /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
     ```
