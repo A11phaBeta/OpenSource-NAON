@@ -1,4 +1,4 @@
-package com.http.naonapp;
+package com.example.naonapp;
 
 import android.content.Context;
 import android.os.AsyncTask;
