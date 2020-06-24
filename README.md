@@ -49,3 +49,4 @@ Hanyang Univ. ERICA Open source S/W Assignment Customer membership management ap
 
 ### 3️⃣ Database ERD (Entity-Relation Diagram)
 ---
+![db_erd](./DB_ERD/NAON-DB.png)
