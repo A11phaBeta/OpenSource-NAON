@@ -3,6 +3,12 @@ Hanyang Univ. ERICA Open source S/W Assignment Customer membership management ap
 
 ---
 
+### 0️⃣ 개발기준 하드웨어 및 소프트웨어 사양
+---
+
+
+---
+
 ### 1️⃣ 개발 전 Flask, MySQL 설치 및 확인과정 (Pre-development process for installing Flask, MySQL)  
 ---
 #### 1. Flask 설치 과정 (installing Flask) ( * Python 3.8 Version이 이미 설치되어 있다고 가정함, Suppose Python 3.8 Version is already installed. )
