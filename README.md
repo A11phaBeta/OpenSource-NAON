@@ -9,7 +9,7 @@ Hanyang Univ. ERICA Open source S/W Assignment Customer membership management ap
     $ sudo pip3 install virtualenv
     ```
     
-  2. pip3를 이용하여 Flask 라이브러리를 설치합니다.
+  2. pip3를 이용하여 Flask 라이브러리를 설치합니다.  
     ```
     $ sudo pip3 install flask
     ```
