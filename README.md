@@ -43,5 +43,5 @@ Hanyang Univ. ERICA Open source S/W Assignment Customer membership management ap
   |![cus_intro_screen](./Design%20File/고객%20-%20Intro.jpg)|![cus_login_screen](./Design%20File/고객%20-%20Login.jpg)|![cus_shop_list_screen](./Design%20File/고객%20-%20매장%20리스트.jpg)|![cus_points_log_screen](./Design%20File/고객%20-%20포인트%20적립%20및%20사용내역.jpg)|  
 #### 2. 점수 사용 Android Application UI / UX 디자인  
   | a. intro screen | b. login screen | c. add point | d. new customer sign up | e. after add point |  
-  |----|----|----|----|
+  |----|----|----|----|----|
   |![shop_intro_screen](./Design%20File/점주%20-%20Intro.jpg)|![shop_login_screen](./Design%20File/점주%20-%20Login.jpg)|![shop_add_point_screen](./Design%20File/점주%20-%20포인트%20적립.jpg)|![shop_new_customer_signup_screen](./Design%20File/점주%20-%20포인트%20적립%20-%20신규회원%20-%20Password%20Input.jpg)|![shop_after_add_point_screen](./Design%20File/점주%20-%20포인트%20적립%20후.jpg)
