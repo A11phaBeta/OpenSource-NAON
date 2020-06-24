@@ -1,4 +1,4 @@
-# OpenSource-NAON
+# OpenSource-NAON  
 Hanyang Univ. ERICA Open source S/W Assignment Customer membership management app service for small and medium merchants 'NAON'  
 ---
 ### 개발 전 Flask, MySQL 설치 과정 (Pre-development process for installing Flask, MySQL)
