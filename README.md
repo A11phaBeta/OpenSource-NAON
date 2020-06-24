@@ -38,5 +38,6 @@ Hanyang Univ. ERICA Open source S/W Assignment Customer membership management ap
 ### 2️⃣ Android Application UI / UX 디자인 ( * 실제와 다소 차이가 있을 수 있음 )
 ---
 #### 1. 매장고객 사용 Android Application UI / UX 디자인
-  a. intro screen  
-  ![cus_intro_screen](./Design%20File/고객%20-%20Intro.jpg)
+  | a. intro screen | b. login screen | c. shop list |
+  |----|----|----|
+  |![cus_intro_screen](./Design%20File/고객%20-%20Intro.jpg)|![cus_login_screen](./Design%20File/고객%20-%20Login.jpg)|![cus_shop_list_screen](./Design%20File/고객%20-%20매장%20리스트.jpg)
