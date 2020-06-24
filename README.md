@@ -32,3 +32,8 @@ Hanyang Univ. ERICA Open source S/W Assignment Customer membership management ap
     ```
     $ sudo mysql
     ```
+
+---
+
+### 2️⃣ UI / UX 디자인  
+---
