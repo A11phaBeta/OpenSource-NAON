@@ -1,4 +1,4 @@
-# OpenSource-NAON  
+# OpenSource-NAON (팀 이름 : 이용현이형우홍시영김동현 )
 Hanyang Univ. ERICA Open source S/W Assignment Customer membership management app service for small and medium merchants 'NAON'
 
 ---
