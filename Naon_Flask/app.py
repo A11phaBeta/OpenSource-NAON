@@ -10,11 +10,11 @@ def root():
 @app.route('/doLogin', methods=['POST'])
 def doLogin():
     db_class = DBConfig.Database()
-    sql = """SELECT COUNT(*), no, Name, Gubun FROM customer WHERE Phone='""" + request.form['id'] + """' AND PW='""" + request.form['pw'] + """' GROUP BY Name;""";
+    sql = """SELECT COUNT(*), No, Name, Gubun FROM User WHERE Phone='""" + request.form['id'] + """' AND PW='""" + request.form['pw'] + """' GROUP BY No;""";
     row = db_class.executeAll(sql)
 
     if row != () :
-        resList = {'count' : row[0]['COUNT(*)'], 'no' : row[0]['no'], 'name' : row[0]['mName'], 'gubun' : row[0]['Gubun']}
+        resList = {'count' : row[0]['COUNT(*)'], 'no' : row[0]['No'], 'name' : row[0]['Name'], 'gubun' : row[0]['Gubun']}
     else :
         resList = {'count' : 0}
 
@@ -23,7 +23,7 @@ def doLogin():
 @app.route('/doCusSignUp', methods=['POST'])
 def doSignUp():
     db_class = DBConfig.Database()
-    sql = """INSERT INTO customer(mPhone, mPW, mName) VALUES('""" + request.form['id'] + """', '""" + request.form['pw'] + """', '""" + request.form['name'] + """');"""
+    sql = """INSERT INTO User(mPhone, mPW, mName) VALUES('""" + request.form['id'] + """', '""" + request.form['pw'] + """', '""" + request.form['name'] + """');"""
 
     db_class.execute(sql)
     db_class.commit()
@@ -32,16 +32,17 @@ def doSignUp():
 
     return jsonify(resList)
 
-@app.route('/getVisitedShopList')
+@app.route('/getVisitedShopList', methods=['POST'])
 def getVisitedShotList():
     db_class = DBConfig.Database()
     sql = """SELECT DISTINCT u.no, u.Name, u.Address, u.Category FROM pointlog AS p JOIN user AS u ON p.UserNo = """ + \
-          request.args.get('no') + """ AND u.no=p.WhosShop"""
+          request.form['no'] + """ AND u.no=p.WhosShop"""
 
     row = db_class.executeAll(sql)
 
     if row != ():
-        return jsonify(row)
+        resList = {"Address" : row[0]['Address'], "Category" : row[0]['Category'], "Name" : row[0]['Name'], "no" : row[0]['no']}
+        return jsonify(resList)
     else:
         return jsonify({'count': 0})
 
